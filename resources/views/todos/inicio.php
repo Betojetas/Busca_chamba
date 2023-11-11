@@ -1,0 +1,1 @@
+@extens('master_page')
