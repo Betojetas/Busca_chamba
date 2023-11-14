@@ -21,3 +21,20 @@ Route::get('/master_page', function () {
     return view('master_page');
 });
 
+Route::get('/inicio', function () {
+    return view('todos.inicio');
+});
+
+Route::get('/login', function () {
+    return view('todos.login');
+});
+Route::get('/register', function () {
+    return view('todos.register');
+});
+
+Route::get('/conexion', function () {
+    return view('todos.conexion');
+});
+
+
+
